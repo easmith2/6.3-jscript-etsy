@@ -51,6 +51,6 @@ answers = [
   madeBySeller.length
 ]
 // display the answers on the page
-for(var i = 1; i <= 6; i ++) {
+for(var i = 1; i <= 6; i++) {
   document.getElementById('answer' + i).innerHTML = answers[i-1]
 }
